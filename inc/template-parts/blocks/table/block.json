@@ -1,0 +1,14 @@
+{
+  "name": "table",
+  "title": "Table Block",
+  "description": "Table Block",
+  "apiVersion": 2,
+  "category": "content",
+  "acf": {
+    "renderTemplate": "perks.php",
+    "mode": "preview"
+  },
+  "supports": {
+    "align": false
+  }
+}

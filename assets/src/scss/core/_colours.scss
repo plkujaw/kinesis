@@ -1,0 +1,13 @@
+$clr-primary: #9edda0;
+$clr-secondary: #349beb;
+
+$clr-white: #fefefe;
+$clr-black: #000;
+
+.has-primary-background-color {
+  background-color: $clr-primary !important;
+}
+
+.has-secondary-background-color {
+  background-color: $clr-secondary !important;
+}

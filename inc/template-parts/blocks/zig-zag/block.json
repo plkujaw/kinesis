@@ -1,0 +1,14 @@
+{
+  "name": "zig-zag",
+  "title": "Zig-Zag Block",
+  "description": "Zig-Zag Block",
+  "apiVersion": 2,
+  "category": "content",
+  "acf": {
+    "renderTemplate": "perks.php",
+    "mode": "preview"
+  },
+  "supports": {
+    "align": false
+  }
+}

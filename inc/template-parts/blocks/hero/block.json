@@ -1,0 +1,16 @@
+{
+  "name": "hero",
+  "title": "Hero Block",
+  "description": "Hero Block",
+  "icon": "cover-image",
+  "apiVersion": 2,
+  "category": "content",
+  "style": "file:./hero.min.css",
+  "acf": {
+    "renderTemplate": "hero.php",
+    "mode": "preview"
+  },
+  "supports": {
+    "align": false
+  }
+}
