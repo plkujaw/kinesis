@@ -4,9 +4,60 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility; // aestheticallyloyal.com/public/optimize-legibility/
   -webkit-text-size-adjust: 100%; // Prevents iOS orientation font resize bug
+  color: $clr-midnight-base;
 }
 
-a,
-p {
-  font-size: 1em;
+.acf-block {
+  h1 {
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: clamp(2.25rem, 1.9859rem + 1.1268vw, 3rem);
+    letter-spacing: -2.1px;
+  }
+
+  .block-heading {
+    .subheader {
+      margin-top: 1.3em;
+    }
+  }
+
+  .subheader {
+    color: $clr-midnight-40;
+    font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
+    font-weight: 500;
+    line-height: 1.44;
+
+    &--light {
+      color: $clr-midnight-60;
+    }
+  }
+
+  .item-title {
+    h3 {
+      font-size: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
+      letter-spacing: -0.2px;
+      line-height: 1.41;
+    }
+  }
+
+  .item-subtitle {
+    p {
+      color: $clr-midnight-40;
+      font-size: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
+      line-height: 1.5;
+    }
+  }
 }
+
+

@@ -1,0 +1,97 @@
+.table-block {
+  padding: 80px 0;
+
+  &__heading {
+    text-align: center;
+  }
+
+  &__tabs {
+    padding: 56px 0;
+    .tabs {
+      display: flex;
+      justify-content: center;
+    }
+
+    .tablink {
+      align-items: center;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid $clr-midnight-90;
+      color: $clr-midnight-40;
+      cursor: pointer;
+      display: flex;
+      font-weight: 700;
+      padding: 8px 16px 12px 16px;
+      &.active {
+        border-color: $clr-azure-base;
+        color: $clr-midnight-base;
+      }
+    }
+
+    .tabcontent {
+      display: none;
+      margin: 40px auto 0 auto;
+      overflow-x: auto;
+      padding: 6px 12px;
+      width: 100%;
+
+      &.active {
+        display: block;
+      }
+    }
+
+    .table {
+      display: grid;
+      font-size: 0.875rem;
+      grid-template-columns: repeat(5, minmax(175px, 1fr));
+      margin: 0 auto;
+      max-width: 1060px;
+      min-width: 850px;
+      &__header,
+      &__body,
+      &__row {
+        display: contents;
+      }
+
+      &__header {
+        font-weight: 700;
+        .table__cell {
+          padding-bottom: 16px;
+        }
+      }
+
+      &__row {
+        text-align: left;
+      }
+
+      &__cell {
+        align-items: center;
+        border-bottom: 1px solid $clr-midnight-90;
+        display: flex;
+        gap: 8px;
+        padding: 12px 24px;
+        white-space: nowrap;
+      }
+
+      .price-up {
+        color: $clr-success;
+        font-weight: 700;
+      }
+
+      .price-down {
+        color: $clr-critical;
+        font-weight: 700;
+      }
+
+      .symbol {
+        font-weight: 700;
+      }
+
+      .name,
+      .market-cap,
+      .price:not(.price-up):not(.price-down) {
+        color: $clr-midnight-40;
+      }
+    }
+  }
+}

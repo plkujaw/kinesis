@@ -5,10 +5,9 @@
   "icon": "cover-image",
   "apiVersion": 2,
   "category": "content",
-  "style": "file:./hero.min.css",
   "acf": {
     "renderTemplate": "hero.php",
-    "mode": "preview"
+    "mode": "edit"
   },
   "supports": {
     "align": false

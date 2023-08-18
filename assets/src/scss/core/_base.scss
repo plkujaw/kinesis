@@ -97,7 +97,6 @@ html {
 
 body {
   background-color: #fff;
-  color: #000;
 }
 
 a {
@@ -115,6 +114,29 @@ $header-height: 120px; // based on the design
 .container {
   margin: 0 auto;
   max-width: $site-width;
+  padding: 0 6%;
   width: 100%;
+}
+
+.block-bg {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.buttons {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  &--centre {
+    justify-content: center;
+  }
 }
 

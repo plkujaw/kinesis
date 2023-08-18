@@ -29,5 +29,10 @@
     "build": "NODE_ENV=production gulp build",
     "dev": "gulp watch",
     "dev-sync": "gulp sync"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.3",
+    "chartjs-adapter-moment": "^1.0.1",
+    "moment": "^2.29.4"
   }
 }

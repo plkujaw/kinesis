@@ -2,11 +2,12 @@
   "name": "cta",
   "title": "CTA Block",
   "description": "CTA Block",
+  "icon": "text",
   "apiVersion": 2,
   "category": "content",
   "acf": {
-    "renderTemplate": "perks.php",
-    "mode": "preview"
+    "renderTemplate": "cta.php",
+    "mode": "edit"
   },
   "supports": {
     "align": false

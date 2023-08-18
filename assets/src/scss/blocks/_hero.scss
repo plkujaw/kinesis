@@ -1,0 +1,41 @@
+.hero-block {
+  background-color: $clr-midnight-5;
+  height: 100vh;
+  position: relative;
+
+  &__content {
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+    span {
+      color: $clr-midnight-40;
+      display: inline-block;
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    h1 {
+      color: $clr-white;
+      font-size: clamp(2.25rem, 1.6338rem + 2.6291vw, 4rem);
+      letter-spacing: -3.2px;
+      margin-bottom: 0.375em;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      .btn {
+        &:first-child {
+          @extend .btn--gradient;
+        }
+        &:last-child {
+          @extend .btn--dark;
+        }
+      }
+    }
+  }
+  @include for-size($tablet-landscape-up) {
+    &__content {
+      margin-left: 110px;
+      max-width: 620px;
+    }
+  }
+}

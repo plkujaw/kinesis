@@ -1,0 +1,42 @@
+.btn {
+  align-items: center;
+  border-radius: 4px;
+  color: $clr-white;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 9px 16px 11px 16px;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+
+  &--dark {
+    background-color: $clr-midnight-5;
+    &:hover {
+      background-color: $clr-midnight-97;
+      color: $clr-midnight-base;
+    }
+  }
+
+  &--light {
+    background-color: $clr-midnight-92;
+    color: $clr-midnight-base;
+    &:hover {
+      background-color: $clr-midnight-base;
+      color: $clr-midnight-92;
+    }
+  }
+
+  &--gradient {
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      $clr-azure-base;
+    background-blend-mode: soft-light, normal;
+
+    &:hover {
+      background: $clr-azure-base;
+    }
+  }
+}

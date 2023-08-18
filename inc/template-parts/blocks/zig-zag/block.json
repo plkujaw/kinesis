@@ -2,11 +2,12 @@
   "name": "zig-zag",
   "title": "Zig-Zag Block",
   "description": "Zig-Zag Block",
+  "icon": "align-pull-right",
   "apiVersion": 2,
   "category": "content",
   "acf": {
-    "renderTemplate": "perks.php",
-    "mode": "preview"
+    "renderTemplate": "zig-zag.php",
+    "mode": "edit"
   },
   "supports": {
     "align": false

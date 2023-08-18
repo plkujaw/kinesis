@@ -1,0 +1,21 @@
+.cta-block {
+  position: relative;
+
+  &__content {
+    color: $clr-white;
+    padding: 15% 0;
+    position: relative;
+    z-index: 1;
+
+    a {
+      margin-top: 40px;
+    }
+  }
+
+  @include for-size($tablet-landscape-up) {
+    &__content {
+      margin-left: 110px;
+      max-width: 510px;
+    }
+  }
+}

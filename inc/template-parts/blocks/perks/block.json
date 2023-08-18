@@ -2,11 +2,12 @@
   "name": "perks",
   "title": "Perks Block",
   "description": "Perks Block",
+  "icon": "grid-view",
   "apiVersion": 2,
   "category": "content",
   "acf": {
     "renderTemplate": "perks.php",
-    "mode": "preview"
+    "mode": "edit"
   },
   "supports": {
     "align": false

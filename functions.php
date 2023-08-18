@@ -64,12 +64,12 @@ require_once get_template_directory() . '/inc/functions-includes/enqueue.php';
 /**
  * Custom functions that act independently of the theme templates.
  */
-// require_once get_template_directory() . '/inc/functions-includes/extras.php';
+require_once get_template_directory() . '/inc/functions-includes/extras.php';
 
 /**
  * Load Cleanup file
  */
-// require_once get_template_directory() . '/inc/functions-includes/wordpress-cleanup.php';
+require_once get_template_directory() . '/inc/functions-includes/wordpress-cleanup.php';
 
 /**
  * Custom User Capabilities
@@ -101,4 +101,3 @@ require_once get_template_directory() . '/inc/functions-includes/enqueue.php';
  * Load ACF Blocks Registration file
  */
 require get_template_directory() . '/inc/template-parts/blocks/register-blocks.php';
-

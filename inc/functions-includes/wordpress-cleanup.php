@@ -83,7 +83,7 @@ function remove_jquery()
         wp_register_script('jquery', false);
     }
 }
-add_action('init', 'remove_jquery');
+// add_action('init', 'remove_jquery');
 
 function _scripts()
 {
@@ -93,7 +93,7 @@ function _scripts()
     }
 }
 
-add_action('wp_enqueue_scripts', '_scripts', PHP_INT_MAX);
+// add_action('wp_enqueue_scripts', '_scripts', PHP_INT_MAX);
 
 
 /**

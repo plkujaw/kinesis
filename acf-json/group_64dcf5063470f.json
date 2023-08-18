@@ -3,11 +3,36 @@
     "title": "Block: CTA",
     "fields": [
         {
-            "key": "field_64dcf50637276",
-            "label": "field",
-            "name": "field",
+            "key": "field_64ddf42e5484d",
+            "label": "Background Image",
+            "name": "cta_background_image",
             "aria-label": "",
-            "type": "text",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64dcf50637276",
+            "label": "Text",
+            "name": "cta_text",
+            "aria-label": "",
+            "type": "textarea",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -18,9 +43,25 @@
             },
             "default_value": "",
             "maxlength": "",
+            "rows": 3,
             "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "new_lines": ""
+        },
+        {
+            "key": "field_64ddf4445484e",
+            "label": "Button",
+            "name": "cta_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
         }
     ],
     "location": [
@@ -41,5 +82,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692202258
+    "modified": 1692268135
 }

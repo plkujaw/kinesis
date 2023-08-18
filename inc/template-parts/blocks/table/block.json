@@ -2,11 +2,12 @@
   "name": "table",
   "title": "Table Block",
   "description": "Table Block",
+  "icon": "editor-table",
   "apiVersion": 2,
   "category": "content",
   "acf": {
-    "renderTemplate": "perks.php",
-    "mode": "preview"
+    "renderTemplate": "table.php",
+    "mode": "edit"
   },
   "supports": {
     "align": false

@@ -1,13 +1,15 @@
-$clr-primary: #9edda0;
-$clr-secondary: #349beb;
+$clr-midnight-base: #0d1d2c;
+$clr-midnight-40: #6e7780;
+$clr-midnight-5: #192837;
+$clr-midnight-60: #9ea5ab;
+$clr-midnight-90: #e7e8ea;
+$clr-midnight-92: #ecedee;
+$clr-midnight-97: #f8f8f9;
 
-$clr-white: #fefefe;
+$clr-azure-base: #017de8;
+
+$clr-critical: #da202d;
+$clr-success: #28a745;
+
+$clr-white: #fff;
 $clr-black: #000;
-
-.has-primary-background-color {
-  background-color: $clr-primary !important;
-}
-
-.has-secondary-background-color {
-  background-color: $clr-secondary !important;
-}
