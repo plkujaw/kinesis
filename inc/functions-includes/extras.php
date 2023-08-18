@@ -125,6 +125,9 @@ function get_table()
     $percent_change_raw = $coin['quote']['USD']['percent_change_24h'];
     $percent_change_value = number_format($percent_change_raw, 2);
     $percent_change_value < 0 ? $percent_change = 'price-down' : $percent_change = 'price-up';
+
+    $percent_change_value > 0 ? $change_symbol = '+' : $change_symbol = '';
+
     $market_cap = number_format($coin['quote']['USD']['market_cap'] / 1000000, 2, '.', ',') . "M";
     $icon = "<img src='" . get_template_directory_uri() . '/assets/icons/' . $symbol . '.svg' . "' class='table__icon' width='32' height='32'>";
 
@@ -144,7 +147,7 @@ function get_table()
     $output .= "<tr class='table__row'>";
     $output .= "<td class='table__cell id'>$icon<span class='symbol'>$symbol</span><span class='name'>$name</span></td>";
     $output .= "<td class='table__cell price $price_change_class'>$$current_price</td>";
-    $output .= "<td class='table__cell price-change $percent_change'>$percent_change_value%</td>";
+    $output .= "<td class='table__cell price-change $percent_change'>$change_symbol$percent_change_value%</td>";
     $output .= "<td class='table__cell market-cap'>$$market_cap</td>";
     $output .= "<td class='table__cell graph' data-symbol=$symbol></td>
                 </tr>";
