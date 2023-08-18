@@ -26,6 +26,8 @@ The table could have been more responsive. :)
 
 In the design, the Lato font in weight 500 was used but this weight is actually not provided for this font so even though it is declared in CSS to use `font-weight: 500;` it renders 400.
 
+Functionality to choose what coins we want to display could be added as well (now the whole price table is hard coded).
+
 ## How to use it
 1. Clone the repository directly into `wp-content/themes` folder (it is essentially a `kinesis` theme).
 2. Install ACF PRO plugin in minimum version 6.0 (6.2.0 was used; if required, I can provide it) and sync any Field Groups available to sync.
