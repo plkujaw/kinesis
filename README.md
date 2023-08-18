@@ -28,7 +28,7 @@ In the design, the Lato font in weight 500 was used but this weight is actually 
 
 ## How to use it
 1. Clone the repository directly into `wp-content/themes` folder (it is essentially a theme).
-2. Install ACF PRO plugin in minimum version 6.0 (6.2.0 was used; if required, I can provide it).
+2. Install ACF PRO plugin in minimum version 6.0 (6.2.0 was used; if required, I can provide it) and sync any Field Groups available to sync.
 3. Install SVG SUPPORT plugin (this is really only to enable adding svg files into content, if PNG or any other files will be used, this is not necessary).
 4. Build the content with provided blocks.
 
