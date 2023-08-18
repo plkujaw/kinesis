@@ -73,18 +73,18 @@
         white-space: nowrap;
       }
 
+      .symbol,
+      .price-up,
+      .price-down {
+        font-weight: 700;
+      }
+
       .price-up {
         color: $clr-success;
-        font-weight: 700;
       }
 
       .price-down {
         color: $clr-critical;
-        font-weight: 700;
-      }
-
-      .symbol {
-        font-weight: 700;
       }
 
       .name,
